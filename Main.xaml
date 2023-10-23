@@ -1,0 +1,199 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1179,819" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="592,2231" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="str_data_odswiezenia" />
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dt_ExtractDataTable" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_euro" />
+      <Variable x:TypeArguments="x:String" Name="str_euro" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:Comment sap:VirtualizedContainerService.HintSize="530,208" sap2010:WorkflowViewState.IdRef="Comment_1" Text="1. Wejdź na stronę &quot;https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/&quot; i pobierz datę odświeżenia kursów walut&#xD;&#xA;2. Pobierz tabelę A&#xD;&#xA;3. Wyświetl kurs Euro&#xD;&#xA;4. Zapisz pobraną tabelę A do pliku „Kursy-tabela-A-[data odwiezenia].xlsx”" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Kursy walut - tabela A | Narodowy Bank Polski - Internetowy Serwis Informacyjny" sap:VirtualizedContainerService.HintSize="530,1031" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="37d8e4a6-c6cb-4926-90f8-f286958b1233" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="496,774" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGetText DisplayName="Get Text 'Tabela nr'" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="37d8e4a6-c6cb-4926-90f8-f286958b1233" TextString="[str_data_odswiezenia]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/" DesignTimeRectangle="20, 339, 1291, 44" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Tabela nr'" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzyAccuracy="0.9" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' /&gt;" Guid="5aefa8cc-a611-4061-aa63-38bc1e00451c" ImageBase64="" InformativeScreenshot="d9ce373662fc469d82244a504c5b9b08.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Kursy walut - tabela A | Narodowy Bank Polski - Internetowy Serwis Informacyjny' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[str_data_odswiezenia]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[str_data_odswiezenia.Split(" ").Last().ToString]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,143" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;data: &quot;+str_data_odswiezenia]" />
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[dt_ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Nazwa waluty' ReferenceName='Nazwa waluty' ReferenceIdx='0'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Kod waluty' ReferenceName='Kod waluty' ReferenceIdx='1'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Kurs średni' ReferenceName='Kurs średni' ReferenceIdx='2'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='NumberColumnFormat' DecimalSeparator=',' ThousandsSeparator='' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Nazwa waluty' attr='fulltext' /&gt;&lt;column name='Kod waluty' attr='fulltext' /&gt;&lt;column name='Kurs średni' attr='fulltext' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="434,157" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="37d8e4a6-c6cb-4926-90f8-f286958b1233" Version="V3">
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="32, 267, 1267, 2432" DesignTimeScaleFactor="1" FriendlyName="'Nazwa walutyKod'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;" Guid="a0d9767f-1ee3-47a4-8980-ebbe457ae765" InformativeScreenshot="5996667688c17fd3c17f6d64a3cfe2bf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Kursy walut - tabela A | Narodowy Bank Polski - Internetowy Serwis Informacyjny' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="2177, 167, 1348, 798" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="cec4800f3160e47a01eba6edb5b2ac5d.jpg" Selector="&lt;html app='chrome.exe' title='Kursy walut - tabela A | Narodowy Bank Polski - Internetowy Serwis Informacyjny' /&gt;" Title="Kursy walut - tabela A | Narodowy Bank Polski - Internetowy Serwis Informacyjny" Url="https://nbp.pl/statystyka-i-sprawozdawczosc/kursy/tabela-a/" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <ui:FilterDataTable DataTable="[dt_ExtractDataTable]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="530,161" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[dt_euro]" SelectColumnsMode="Remove">
+      <ui:FilterDataTable.Filters>
+        <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+          <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+            <ui:FilterOperationArgument.Column>
+              <InArgument x:TypeArguments="x:Int32">[0]</InArgument>
+            </ui:FilterOperationArgument.Column>
+            <ui:FilterOperationArgument.Operand>
+              <InArgument x:TypeArguments="x:String">["euro"]</InArgument>
+            </ui:FilterOperationArgument.Operand>
+          </ui:FilterOperationArgument>
+        </scg:List>
+      </ui:FilterDataTable.Filters>
+      <ui:FilterDataTable.SelectColumns>
+        <scg:List x:TypeArguments="InArgument" Capacity="4">
+          <x:Null />
+        </scg:List>
+      </ui:FilterDataTable.SelectColumns>
+    </ui:FilterDataTable>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="530,141" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;po filtrowaniu mamy: &quot;+dt_euro.RowCount.ToString+&quot; wiersz.&quot;]" />
+    <Assign sap:VirtualizedContainerService.HintSize="530,82" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[str_euro]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[dt_euro(0).Item(2).ToString]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="530,141" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;kurs euro wynosi: &quot;+str_euro]" />
+    <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[dt_ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="530,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="sheet1" WorkbookPath="[&quot;kursy_tabela_A&quot;+str_data_odswiezenia+&quot;.xlsx&quot;]" />
+  </Sequence>
+</Activity>
